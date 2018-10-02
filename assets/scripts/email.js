@@ -1,8 +1,8 @@
 $('#mbr-form').submit(function(e) {
-  var name = document.getElementById('#inputName'),
-  var email = document.getElementById('#inputEmail'),
-  var subject = document.getElementById('#inputSubject'),
-  var message = document.getElementById('#inputMessage');
+  var name = document.getElementById('#name-form1-3'),
+  var email = document.getElementById('#email-form1-3'),
+  var subject = document.getElementById('#subject-form1-3'),
+  var message = document.getElementById('#message-form1-3');
 
   if (!name.value || !email.value || !subject.value || !message.value ) {
     alertify.error('Please enter a value')
