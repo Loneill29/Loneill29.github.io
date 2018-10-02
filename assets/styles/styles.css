@@ -3028,3 +3028,10 @@ body {
 #header2-3a {
   background-color: #652a50;
 }
+#confirm {
+  margin-bottom: 20px;
+  margin-top: -30px;
+  padding-bottom: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #D5FFF3!important;
+}
