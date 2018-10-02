@@ -2969,6 +2969,9 @@ body {
   background: rgba(255,255,255,0.5);
   color: black;
   font-family: 'IBM Plex Sans', sans-serif;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .img-wrapper {
   height: 100vh;
