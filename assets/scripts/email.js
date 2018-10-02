@@ -9,7 +9,7 @@ $('#mbr-form').submit(function(e) {
   } else {
     $ajax({
       url: "https://formspree.io/oneill.linda21@gmail.com",
-      method: "POST",
+      method: "post",
       data: $(this).serialize(),
       dataType: "json"
     });
