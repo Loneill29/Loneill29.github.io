@@ -3737,6 +3737,7 @@ body {
 @media (max-width: 576px) {
   .cid-qwprXlYIsG .carousel-item .container {
     width: 100%;
+    max-height: 100%;
   }
 }
 .cid-qwprXlYIsG .carousel-item-next.carousel-item-left,
@@ -4069,7 +4070,6 @@ body {
   padding: 12px 15px 12px 15px;
 }
 .cid-qwprY4MBhh .mbr-gallery-filter .btn:hover {
-  background: transparent;
   color: #b2f9ed;
 }
 .cid-qwprY4MBhh .mbr-gallery-filter ul {
