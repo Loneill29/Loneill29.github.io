@@ -484,9 +484,10 @@ nav .mbr-section-btn {
 }
 #skills {
   margin-top: 30px;
+  margin-bottom: 60px;
 }
 #portfolio {
-  margin-top: -0px;
+  margin-top: 20px;
   background-color: #652a50;
 }
 #hide {
