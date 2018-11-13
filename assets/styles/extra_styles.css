@@ -63,7 +63,7 @@
 /* lightbox */
 .mbr-gallery .modal {
   position: fixed;
-  overflow: hidden;
+  overflow: scroll;
   padding-right: 0 !important;
 }
 
@@ -77,9 +77,18 @@
   padding: 0;
 }
 
+@media (min-width: 1490px) {
+  .modal-body {
+    max-width: 90%!important;
+    align-self: center;
+  }
+}
+
 .mbr-gallery .modal-body img {
-  width: 100%;
+  width: 90%;
   max-width: 100%;
+  max-height: 80%;
+  margin-bottom: 10px!important;
 }
 
 .mbr-gallery .modal .close {
@@ -705,13 +714,34 @@ body {
   text-shadow: 3px 3px 3px grey;
 }
 
-.carousel-caption {
-  background: rgba(255,255,255,0.8);
-  color: black;
-  font-family: 'IBM Plex Sans', sans-serif;
-  position: fixed;
+.carousel-item .carousel-caption {
+  color: #000;
+  text-shadow: 1px 1px 1px #ffff;
+  font-family: 'Ubuntu', sans-serif;
   padding-bottom: 10px;
+  top: 1;
+  left: 1;
+  right: 1;
+  bottom: 0;
+  height: 25;
 }
+
+.dark {
+  color: #000;
+  text-shadow:
+		-0.5px -0.5px 0 #ffff,
+		0.5px -0.5px 0 #ffff,
+		-0.5px 0.5px 0 #ffff,
+		0.5px 0.5px 0 #ffff!important;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
+  top: 1;
+  left: 1;
+  right: 1;
+  bottom: 0;
+  height: 25;
+}
+
 
 #initials {
   width: 70px;
@@ -822,4 +852,8 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.btn-primary {
+  text-shadow: 0px 0px 0px!important;
 }

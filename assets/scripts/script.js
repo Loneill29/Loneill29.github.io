@@ -303,6 +303,8 @@
                         fixed: false,
                         elm: this
                     };
+
+
                     $(window).scroll();
                 });
             }, 650);

@@ -21,8 +21,8 @@
 <section class="menu cid-qwqLcABlWO" once="menu" id="menu2-6k" data-rv-view="3454">
     <nav class="navbar navbar-fixed-top navbar-expand-lg">
         <div class="navbar-brand">
-            <span class="navbar-caption-wrap">
-                <a class="navbar-caption text-warning display-2" href="index.html">
+            <span class="navbar-carousel-caption-wrap">
+                <a class="navbar-carousel-caption text-warning display-2" href="index.html">
                     <img id="initials" src="assets/images/logo_Lcaps.jpg"
                 </a>
             </span>
@@ -203,7 +203,15 @@
               <div class="modal-content">
                 <div class="modal-body">
                   <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                      <li data-target="#myCarousel" data-slide-to="4"></li>
+                      <li data-target="#myCarousel" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-item active set-height">
                       <img src="assets/images/chitchat.png" alt="" title="">
                         <div class="carousel-caption">
                           <p>A chatroom application built with React.JS that allows users to create chat rooms and interact with other users.</p>
@@ -213,9 +221,10 @@
                         <div class="pt-3 mbr-section-btn view">
                           <a class="btn-primary btn btn-md display-4" href="https://limitless-cove-37038.herokuapp.com/" target=_blank type="submit">VISIT SITE</a>
                         </div>
-                        </div>
+                      </div>
                     </div>
-                    <div class="carousel-item">
+
+                    <div class="carousel-item set-height">
                       <img src="assets/images/playmuse.png" alt="" title="">
                         <div class="carousel-caption">
                           <p>An digital music player built with React.JS. Users can stream music from a web browser or mobile device.</p>
@@ -227,7 +236,8 @@
                           </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+
+                    <div class="carousel-item set-height">
                       <img src="assets/images/linkit.png" alt="" title="">
                       <div class="carousel-caption">
                         <p>A Reddit replica built with Ruby on Rails that allows users to post topics, comment on other user's posts, and like/unlike posts.</p>
@@ -239,7 +249,8 @@
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
+
+                    <div class="carousel-item set-height">
                       <img src="assets/images/wisegui.png" alt="" title="">
                       <div class="carousel-caption">
                         <p>An open-source online encylopedia built with Ruby on Rails that features multiple user tiers with paid upgrade, as well as the ability to post, edit, and collaborate on posts with multiple other users.</p>
@@ -251,9 +262,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
+
+                    <div class="carousel-item set-height">
                       <img src="assets/images/markit.png" alt="" title="">
-                      <div class="carousel-caption">
+                      <div class="carousel-caption dark">
                         <p>An application built with Ruby on Rails that allows users to bookmark their favorite websites, share their bookmarks with other users, and create a personalize list of "liked" bookmarks posted by other users.</p>
                         <div class="pt-3 mbr-section-btn view">
                           <a class="btn-primary btn btn-md display-4" href="https://github.com/Loneill29/_markit" target=_blank type="submit">VIEW GITHUB</a>
@@ -263,9 +275,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="carousel-item">
+
+                    <div class="carousel-item set-height">
                       <img src="assets/images/tasktimer.png" alt="" title="">
-                      <div class="carousel-caption">
+                      <div class="carousel-caption dark">
                         <p>A to-do application built with Ruby on Rails that begins a countdown after a user posts a task, giving them seven days to complete the item before it is deleted from their to-do list.</p>
                         <div class="pt-3 mbr-section-btn view">
                           <a class="btn-primary btn btn-md display-4" href="https://github.com/Loneill29/task-timer" target=_blank type="submit">VIEW GITHUB</a>
@@ -276,6 +289,7 @@
                       </div>
                     </div>
                   </div>
+
                   <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery2-a">
                     <span class="fa fa-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
