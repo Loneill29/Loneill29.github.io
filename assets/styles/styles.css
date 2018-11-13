@@ -54,7 +54,7 @@ IBM Plex Sans@charset "UTF-8";
   position: absolute;
   top: calc(50% - 22px);
   left: calc(50% - 55px);
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2rem !important;
   color: #fff;
   opacity: 0;
@@ -104,7 +104,7 @@ IBM Plex Sans@charset "UTF-8";
   height: 69px;
   width: 1px;
   margin-left: 34.5px;
-  background-color: #672A4E; }
+  background-color: #ffff; }
 
 .mbr-gallery .mbr-gallery-item .icon::after {
   width: 69px;
@@ -238,7 +238,7 @@ IBM Plex Sans@charset "UTF-8";
   opacity: .5;
   text-shadow: none;
   z-index: 5;
-  color: #672A4E;
+  color: #ffff;
   -webkit-transition: all .2s ease-in-out 0s;
   -o-transition: all .2s ease-in-out 0s;
   transition: all .2s ease-in-out 0s; }
@@ -411,7 +411,7 @@ IBM Plex Sans@charset "UTF-8";
     color: #fff; }
   .mbr-gallery-filter.gallery-filter__bg .active {
     color: #000;
-    background-color: #672A4E; }
+    background-color: #ffff; }
   .mbr-gallery-filter ul {
     display: inline-block;
     width: 100%;
@@ -506,7 +506,7 @@ IBM Plex Sans@charset "UTF-8";
       margin-bottom: 0; }
 
     body {
-      background-color: #672A4E; }
+      background-color: #ffff; }
 
     h1, h2, h3, h4, h5, h6,
     .h1, .h2, .h3, .h4, .h5, .h6,
@@ -560,7 +560,7 @@ IBM Plex Sans@charset "UTF-8";
       color: #000000; }
 
     .mbr-bg-white {
-      background-color: #672A4Eff; }
+      background-color: #ffff; }
 
     .mbr-bg-black {
       background-color: #000000; }
@@ -921,21 +921,21 @@ IBM Plex Sans@charset "UTF-8";
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Poiret One', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
@@ -1048,21 +1048,21 @@ IBM Plex Sans@charset "UTF-8";
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #D5FFF3 !important;
-  border-color: #D5FFF3 !important;
-  color: #672A4E !important;
+  background-color: #042876 !important;
+  border-color: #042876 !important;
+  color: #ffff !important;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary.active {
-  color: #672A4E !important;
+  color: #ffff !important;
   background-color: #0d6786 !important;
   border-color: #0d6786 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-  color: #672A4E !important;
+  color: #ffff !important;
   background-color: #0d6786 !important;
   border-color: #0d6786 !important;
 }
@@ -1171,8 +1171,8 @@ IBM Plex Sans@charset "UTF-8";
 }
 .btn-white,
 .btn-white:active {
-  background-color: #672A4E !important;
-  border-color: #672A4E !important;
+  background-color: #ffff !important;
+  border-color: #ffff !important;
   color: #808080 !important;
 }
 .btn-info-outline.disabled,
@@ -1189,35 +1189,35 @@ IBM Plex Sans@charset "UTF-8";
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-white:hover,
 a.text-white:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 a.text-black:hover,
 a.text-black:focus {
-  color: #D5FFF3 !important;
+  color: #042876 !important;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
@@ -1253,7 +1253,7 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #D5FFF3;
+  color: #042876;
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
@@ -1285,7 +1285,7 @@ a:hover {
   font-style: normal;
 }
 .mbr-arrow a {
-  color: #D5FFF3;
+  color: #042876;
 }
 @media (max-width: 767px) {
   .mbr-arrow {
@@ -2165,7 +2165,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #672A4Eff;
+  background-color: #ffffff;
 }
 .cid-qTkzRZLJNu button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2454,7 +2454,7 @@ body {
 .cid-r3roDWbd4C {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #672A4Eff;
+  background-color: #ffff;
 }
 .cid-r3roDWbd4C .title {
   margin-bottom: 2rem;
@@ -2640,7 +2640,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #672A4Eff;
+  background-color: #ffffff;
 }
 .cid-qTkzRZLJNu button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2862,7 +2862,7 @@ body {
 .cid-r3zpwDbBnM {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #672A4Eff;
+  background-color: #ffffff;
 }
 .cid-r3zpwDbBnM .mbr-slider .carousel-control-prev {
   left: 0;
@@ -2950,22 +2950,21 @@ body {
     transition: all 0.3s ease;
 }
 #return-to-top:hover i {
-    color: #D5FFF3;
+    color: #042876;
     top: 5px;
 }
 .fa:hover {
-  color: #D5FFF3;
+  color: #042876;
 }
 .fab:hover, .fas:hover {
-  color: #D5FFF3;
+  color: #042876;
   transform: scale(1.4);
   transition: all 0.2s ease-in-out;
 }
 #hello {
-  font-family: 'Sacramento', cursive;
-  font-size: 150px;
-  color: #652a50!important;
-  text-shadow: 0.5px 0.5px 10px #ffff!important;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 100px;
+  color: #ffff!important;
 }
 .carousel-caption {
   background: rgba(255,255,255,0.6);
@@ -3008,24 +3007,24 @@ body {
   border-radius: 100px!important;
 }
 #nav-hover:hover {
-  color: #D5FFF3!important;
+  color: #042876!important;
   font-weight: 400;
 }
 .fa-close {
-  color: #672A4E;
+  color: #ffff;
 }
 
 #about {
-  background-color: #AF9AB2!important;
-  color: #672A4E!important;
+  background-color: #f2f2f2!important;
+  color: #000000!important;
   font-weight: 200;
 }
 #skill-icons {
-  color: #D5FFF3!important;
+  color: #042876!important;
   font-weight: 200!important;
 }
 .line {
-  color: #D5FFF3!important;
+  color: #042876!important;
 }
 #contact {
   margin-bottom: 50px;
@@ -3039,5 +3038,5 @@ body {
   margin-top: -30px;
   padding-bottom: 30px;
   font-family: 'IBM Plex Sans', sans-serif;
-  color: #D5FFF3!important;
+  color: #042876!important;
 }

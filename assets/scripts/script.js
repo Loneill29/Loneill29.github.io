@@ -641,33 +641,33 @@
     }
 
 // Typed text
-    function initTyped(a,b,c,d,e,f,g,el){
+    function initTyped(a,b,c,el){
         $(el).typed({
-          strings: [a, b, c, d, e, f, g],
+          strings: [a, b, c],
           typeSpeed: parseInt($(el).attr('typeSpeed')),
           backSpeed: parseInt($(el).attr('data-speed')),
           loop: true,
-          backDelay: 1000
+          backDelay: 2000
         });
     }
     if (isBuilder){
         $(document).on('add.cards',function(event) {
             if($(event.target).find('.typed-text').length!=0){
                 $(event.target).find('.animated-element').each(function(){
-                    initTyped($(this).attr('data-word1'),$(this).attr('data-word2'),$(this).attr('data-word3'),$(this).attr('data-word4'),$(this).attr('data-word5'),$(this).attr('data-word6'),$(this).attr('data-word7'),$(this));
+                    initTyped($(this).attr('data-word1'),$(this).attr('data-word2'),$(this).attr('data-word3'),$(this));
                 });
             }
         }).on('changeParameter.cards', function(event,paramName,value) {
             if(paramName.indexOf('animatedWord')==0||paramName=='typeSpeed'){
                 $(event.target).find('.animated-element').each(function(){
-                    initTyped($(this).attr('data-word1'),$(this).attr('data-word2'),$(this).attr('data-word3'),$(this).attr('data-word4'),$(this).attr('data-word5'),$(this).attr('data-word6'),$(this).attr('data-word7'),$(this));
+                  initTyped($(this).attr('data-word1'),$(this).attr('data-word2'),$(this).attr('data-word3'),$(this));
                 });
             }
         });
     }
     else{
         $('.typed-text .animated-element').each(function(){
-            initTyped($(this).attr('data-word1'),$(this).attr('data-word2'),$(this).attr('data-word3'),$(this).attr('data-word4'),$(this).attr('data-word5'),$(this).attr('data-word6'),$(this).attr('data-word7'),$(this));
+          initTyped($(this).attr('data-word1'),$(this).attr('data-word2'),$(this).attr('data-word3'),$(this));
         });
     }
 })(jQuery);

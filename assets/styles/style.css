@@ -140,7 +140,7 @@ section {
   color: #000000; }
 
 .mbr-bg-white {
-  background-color: #672A4Eff; }
+  background-color: #ffff; }
 
 .mbr-bg-black {
   background-color: #000000; }
@@ -488,7 +488,7 @@ nav .mbr-section-btn {
 }
 #portfolio {
   margin-top: 20px;
-  background-color: #652a50;
+  background-color: #ffff;
 }
 #hide {
   visibility: hidden;
