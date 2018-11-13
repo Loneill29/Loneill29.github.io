@@ -923,6 +923,7 @@ IBM Plex Sans@charset "UTF-8";
 .display-1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 4.25rem;
+  text-shadow: 2px 2px 2px grey;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
@@ -2965,6 +2966,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 100px;
   color: #ffff!important;
+  text-shadow: 3px 3px 3px grey;
 }
 .carousel-caption {
   background: rgba(255,255,255,0.6);
@@ -3031,7 +3033,7 @@ body {
   margin-top: -100px;
 }
 #header2-3a {
-  background-color: #652a50;
+  background-color: #ffff;
 }
 #confirm {
   margin-bottom: 20px;
