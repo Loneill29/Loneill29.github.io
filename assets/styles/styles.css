@@ -2969,13 +2969,11 @@ body {
   text-shadow: 3px 3px 3px grey;
 }
 .carousel-caption {
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.8);
   color: black;
   font-family: 'IBM Plex Sans', sans-serif;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-bottom: 100px;
+  position: fixed;
+  padding-bottom: 10px;
 }
 .img-wrapper {
   height: 100vh;
@@ -3038,4 +3036,7 @@ body {
 #confirm {
   font-family: 'IBM Plex Sans', sans-serif;
   color: #042876!important;
+}
+#hide {
+  visibility: hidden;
 }
