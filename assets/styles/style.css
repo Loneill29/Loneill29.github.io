@@ -901,3 +901,8 @@ body {
 	top: 0;
 	left: -2400px;
 }
+
+#portfolio {
+  padding-top: 80px;
+  margin-top: 30px;
+}
