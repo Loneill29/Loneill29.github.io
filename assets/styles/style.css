@@ -1,9 +1,5 @@
 /*Mobirise library snippets*/
 
-section {
-  background-color: #ffff;
-}
-
 section,
 .container,
 .container-fluid {
@@ -512,7 +508,6 @@ nav .mbr-section-btn {
 body {
   font-style: normal;
   line-height: 1.5;
-  background-color: #ffff!important;
 }
 
 .mbr-section-title {
@@ -537,7 +532,7 @@ body {
 .display-2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
-  color: #042876;
+  color: #ffff;
 }
 
 .display-4 {
@@ -555,6 +550,9 @@ body {
   font-size: 1rem;
 }
 
+#line {
+  color: #ffff!important;
+}
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
 /* 100vw - current viewport width */
@@ -615,7 +613,11 @@ body {
 }
 
 .text-warning {
-  color: #042876 !important;
+  color: #ffff!important;
+}
+
+.text-warning:hover {
+  color: #cbccce!important;
 }
 
 .btn-form {
@@ -626,8 +628,8 @@ body {
   cursor: pointer;
 }
 
-a, a:hover {
-  color: #042876;
+a {
+  color: #ffff;
 }
 
 .form-control-label {
@@ -696,7 +698,6 @@ body {
 .cid-qwp7uHgL4P {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffff;
 }
 
 .cid-qwp7uHgL4P .mbr-section-title {
@@ -755,7 +756,6 @@ body {
 .cid-qwp7A8MhCn {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffff;
 }
 
 .cid-qwp7A8MhCn a:link {
@@ -782,7 +782,7 @@ body {
 .cid-qwqLcABlWO .navbar {
   min-height: 77px;
   transition: all .3s;
-  background: #ffff;
+  background: #444444;
 }
 
 .cid-qwqLcABlWO .navbar .navbar-collapse {
@@ -845,7 +845,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #042876;
+  background-color: #aaf2e8;
 }
 
 .cid-qwqLcABlWO button.navbar-toggler .hamburger span:nth-child(1) {
@@ -890,6 +890,12 @@ body {
 
 .view {
   display: inline;
+}
+
+.btn-primary:hover {
+  background-color: #cbccce!important;
+  border-color: #cbccce!important;
+  color: #272727 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
